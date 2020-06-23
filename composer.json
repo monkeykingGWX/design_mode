@@ -1,0 +1,17 @@
+{
+    "name": "admin/design_mode",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "gwx",
+            "email": "704835519@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/"
+        }
+    }
+
+}
