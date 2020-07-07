@@ -16,3 +16,9 @@ echo '小周追女孩'.PHP_EOL;
 $chaseGirl = new ChaseGirl(new ChaseGirlGradual());
 $chaseGirl->ChaseGirl();
 
+echo PHP_EOL. '============='.PHP_EOL;
+
+echo '小谢追女孩'.PHP_EOL;
+$chaseGirl = new ChaseGirl(new ChaseGirlTease());
+$chaseGirl->ChaseGirl();
+
