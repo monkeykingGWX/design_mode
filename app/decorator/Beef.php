@@ -15,7 +15,7 @@ class Beef extends NoodlesDecorator
 
     public function getDesc()
     {
-        return '牛肉 '. $this->noodles->getDesc();
+        return $this->noodles->getDesc() . $this->desc;
     }
 
     public function cost()

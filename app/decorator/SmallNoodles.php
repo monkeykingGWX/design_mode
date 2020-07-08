@@ -10,4 +10,9 @@ class SmallNoodles extends Noodles
     {
         return 6;
     }
+
+    public function getDesc()
+    {
+        return $this->desc;
+    }
 }

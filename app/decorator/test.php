@@ -4,7 +4,7 @@ namespace app\decorator;
 require '../../vendor/autoload.php';
 
 $noodles = new BigNoodles();
+$beefBigNoodles = new Beef($noodles);
 
-$beefNoodles = new Beef($noodles);
-
-echo $beefNoodles->getDesc();
+echo $beefBigNoodles->getDesc() . '拉面';
+echo $beefBigNoodles->cost() . '元';
