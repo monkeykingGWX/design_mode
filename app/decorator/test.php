@@ -5,6 +5,7 @@ require '../../vendor/autoload.php';
 
 $noodles = new BigNoodles();
 $beefBigNoodles = new Beef($noodles);
+$eggBeffBigNoodles = new Egg($beefBigNoodles);
 
-echo $beefBigNoodles->getDesc() . '拉面';
-echo $beefBigNoodles->cost() . '元';
+echo $eggBeffBigNoodles->getDesc() . '拉面';
+echo $eggBeffBigNoodles->cost() . '元';
