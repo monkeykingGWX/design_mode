@@ -46,7 +46,7 @@ class FanReceiver
                 echo '切换正常模式' . PHP_EOL;
                 break;
             case 1:
-                echo '切换摇头模式' . PHP_EOL;
+                echo '切换睡眠模式' . PHP_EOL;
                 break;
             default:
                 exit('请输入正确指令!');

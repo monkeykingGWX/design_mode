@@ -2,7 +2,7 @@
 
 namespace app\command;
 
-class FanSpeed implements Command
+class FanSpeedCommand implements Command
 {
     private $receiver = null;
     private $speed = 0;

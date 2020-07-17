@@ -15,9 +15,4 @@ class Invoke
     {
         $this->command->execute();
     }
-
-    public function undo ()
-    {
-        $this->command->undo ();
-    }
 }
