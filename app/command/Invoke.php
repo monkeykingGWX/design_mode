@@ -15,4 +15,9 @@ class Invoke
     {
         $this->command->execute();
     }
+
+    public function revocation () :void
+    {
+        $this->command->undo();
+    }
 }
